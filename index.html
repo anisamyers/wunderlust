@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wunderlust Travel</title>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#inspirations">Inspirations</a></li>
+            <li><a href="#special">Special</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <img src="logo.png" alt="Wunderlust Travel">
+</header>
+
+<main id="main-content">
+    <section id="destinations">
+        <h2>Majorca</h2>
+        <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages, and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
+        <img src="majorca-waves.png" alt="Waves">
+        <img src="majorca-beach.png" alt="Beach">
+        <img src="majorca-cove.png" alt="Cove">
+    </section>
+
+    <section id="inspirations">
+        <h2>Inspirations</h2>
+    </section>
+
+    <section id="special">
+        <h2>Special</h2>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <fieldset>
+                <legend>Contact Method</legend>
+                <input type="radio" id="email" name="contact-method" value="email" required>
+                <label for="email">Email</label>
+                <input type="radio" id="text" name="contact-method" value="text">
+                <label for="text">Text</label>
+                <input type="radio" id="phone" name="contact-method" value="phone">
+                <label for="phone">Phone</label>
+            </fieldset>
+
+            <label for="email-address">Email Address</label>
+            <input type="email" id="email-address" name="email-address" required>
+            <label for="phone-number">Phone Number</label>
+            <input type="tel" id="phone-number" name="phone-number">
+
+            <label for="destination">Destination</label>
+            <select id="destination" name="destination" required>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Granada">Granada</option>
+                <option value="Ibiza">Ibiza</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Majorca">Majorca</option>
+                <option value="Seville">Seville</option>
+                <option value="Tenerife">Tenerife</option>
+                <option value="Valencia">Valencia</option>
+            </select>
+
+            <label for="travel-time">Travel Time</label>
+            <select id="travel-time" name="travel-time" required>
+                <option value="Fall">Fall</option>
+                <option value="Winter">Winter</option>
+                <option value="Spring">Spring</option>
+                <option value="Summer">Summer</option>
+                <option value="Flexible">Flexible</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <nav>
+        <ul>
+            <li><a href="#">Copyright 2021 Wunderlust</a></li>
+            <li><a href="#">Privacy Statement</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</body>
+</html>
